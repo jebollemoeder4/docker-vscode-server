@@ -20,4 +20,4 @@ COPY src/* /usr/local/bin/
 CMD start-vscode
 
 # expose port
-EXPOSE 8080
+EXPOSE 8000

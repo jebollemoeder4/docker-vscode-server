@@ -17,7 +17,7 @@ RUN wget -q -O- https://aka.ms/install-vscode-server/setup.sh | sh
 COPY src/* /usr/local/bin/
 
 # entrypoint
-ENTRYPOINT [ "start-vscode" ]
+CMD start-vscode
 
 # expose port
-EXPOSE 8000
+EXPOSE 8080
